@@ -1,0 +1,290 @@
+2025-03-24 19:58:23,875 [INFO] root - Log file created: logs\system_safety_tools_20250324_195823.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-24 19:58:23,876 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-24 19:58:24,918 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-24 19:58:24,919 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 19:58:24,919 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 19:58:24,919 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 19:58:24,919 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 19:58:25,461 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 19:58:25,462 [INFO] tools - 缺失的字符串键值: driver_check_tool_init
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-24 19:58:25,463 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-24 19:58:25,478 [INFO] config.settings_manager - 已加载语言设置: en
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-24 19:58:27,233 [INFO] user_interface - GUI interface initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 656, in function __init__
+2025-03-24 19:58:44,584 [INFO] user_interface - Running tool: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:58:44,585 [INFO] system_check_fix - Running system file checker (sfc /scannow)
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 18, in function sfc_scannow
+2025-03-24 19:58:44,692 [ERROR] system_check_fix - SFC failed with return code: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 43, in function sfc_scannow
+2025-03-24 19:58:44,692 [ERROR] system_check_fix - Error output: 
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 44, in function sfc_scannow
+2025-03-24 19:58:47,084 [INFO] user_interface - Running tool: 3
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:58:47,086 [INFO] tools - GPU basic info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 60, in function gpu_basic_info
+2025-03-24 19:58:59,901 [INFO] user_interface - Running tool: 4
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:58:59,902 [INFO] tools - Checking system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 100, in function sfc_and_delete_useless_files
+2025-03-24 19:58:59,902 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 48, in function delete_useless_files
+2025-03-24 19:58:59,902 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 19:58:59,903 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 51, in function delete_useless_files
+2025-03-24 19:59:01,342 [INFO] delete_useless_file - Recycle bin cleaned
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 43, in function clean_recycle_bin
+2025-03-24 19:59:01,362 [INFO] delete_useless_file - Recycle bin cleaned
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 166, in function cleanup_system
+2025-03-24 19:59:01,416 [INFO] delete_useless_file - Cleaning temp files
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 174, in function cleanup_system
+2025-03-24 19:59:01,422 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\00rf3k3y.lxc [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\00rf3k3y.lxc'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:01,683 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\0572586d-aefb-4405-9c38-7a45a111ff07.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\0572586d-aefb-4405-9c38-7a45a111ff07.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:02,345 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\0ic2db2q.wbe [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\0ic2db2q.wbe'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:02,457 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1cikiofg.5iw [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1cikiofg.5iw'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:02,559 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1e477efb-49f0-4dd6-b48b-0fb980c6caf0.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1e477efb-49f0-4dd6-b48b-0fb980c6caf0.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:02,769 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1heoix5b.zng [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1heoix5b.zng'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:02,936 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1lzkbygd.vwn [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1lzkbygd.vwn'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,113 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1s1wzcrg.suv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1s1wzcrg.suv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,297 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\21lm24hh.5nx [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\21lm24hh.5nx'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,485 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\22gp0dve.l3d [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\22gp0dve.l3d'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,662 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\2a6f07bc-c91b-4481-acca-7380139df28c.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\2a6f07bc-c91b-4481-acca-7380139df28c.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,798 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\2x501tqq.2sp [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\2x501tqq.2sp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,833 [INFO] user_interface - Running tool: 5
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:59:03,834 [INFO] tools - 启动 Windows DISM 工具
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 23, in function windows_dism_tools
+2025-03-24 19:59:03,837 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3b81f4ee-46e2-4acc-bc77-7d0e747e6d0d.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3b81f4ee-46e2-4acc-bc77-7d0e747e6d0d.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,878 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3ds4vxg3.ehu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3ds4vxg3.ehu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:03,976 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3styzqbz.1yq [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3styzqbz.1yq'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,010 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\4145dfd1-bd3d-431f-b0e6-4626ffbab040.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\4145dfd1-bd3d-431f-b0e6-4626ffbab040.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,061 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\58ae7470-ce57-4743-8903-19d9b72414d5.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\58ae7470-ce57-4743-8903-19d9b72414d5.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,280 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\5to2iqxb.aos [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\5to2iqxb.aos'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,497 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\67007f4c-dc56-43e3-87df-e1f42c7d24dc.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\67007f4c-dc56-43e3-87df-e1f42c7d24dc.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,672 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:04,941 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\7ca8c4e9-a68d-46f0-8ff7-8af8aa3bebbd.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\7ca8c4e9-a68d-46f0-8ff7-8af8aa3bebbd.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,046 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\7d428316-b5de-46f3-b071-b47ca2bdb074.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\7d428316-b5de-46f3-b071-b47ca2bdb074.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,054 [INFO] user_interface - Running tool: 5
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:59:05,055 [INFO] tools - 启动 Windows DISM 工具
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 23, in function windows_dism_tools
+2025-03-24 19:59:05,068 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\9bd4a069-acb1-4ecc-bbd2-6092df26b3bc.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\9bd4a069-acb1-4ecc-bbd2-6092df26b3bc.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,106 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\a5nhxepf.swr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\a5nhxepf.swr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,157 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ac23b37d-06d5-4d2d-b90d-5cab06b98c10.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ac23b37d-06d5-4d2d-b90d-5cab06b98c10.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,302 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\argxspyy.jes [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\argxspyy.jes'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,405 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\avty0iz0.ipr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\avty0iz0.ipr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,616 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bttbwedk.kdq [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bttbwedk.kdq'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,797 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bv3wxfuz.qwj [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bv3wxfuz.qwj'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:05,990 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\bxom1vo1.json
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:06,183 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c052ed50-0bdf-4dab-bbf7-e0b639efa3ae.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c052ed50-0bdf-4dab-bbf7-e0b639efa3ae.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:06,419 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c121a2ce-c96a-420d-8e57-516139e28f35.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c121a2ce-c96a-420d-8e57-516139e28f35.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:06,436 [INFO] user_interface - Running tool: 5
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1128, in function run_in_thread
+2025-03-24 19:59:06,436 [INFO] tools - 启动 Windows DISM 工具
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 23, in function windows_dism_tools
+2025-03-24 19:59:06,437 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c40336d8-da3a-4757-9a0f-683ab4848014.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c40336d8-da3a-4757-9a0f-683ab4848014.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:06,463 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ceml1s5b.gfa [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ceml1s5b.gfa'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:06,487 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\cgsbj1qz.pap [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\cgsbj1qz.pap'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 19:59:06,539 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_installer_20250324184334.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:06,596 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_installer_elevated_20250324184442.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:06,660 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:06,754 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1289_Microsoft.VisualCpp.CRT.arm.OneCore.Desktop.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:06,900 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1290_Microsoft.VisualStudio.Windows.Build.VcMeta.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:07,099 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1291_Microsoft.VisualStudio.Windows.Tools.Executables.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:07,284 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1292_Microsoft.VisualStudio.Windows.Tools.Ide.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:07,459 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1293_Microsoft.VisualStudio.Windows.Tools.Overview.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:07,645 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1294_Microsoft.VisualStudio.Windows.Tools.Ide.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:07,868 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1295_Microsoft.VisualStudio.Windows.UniversalDebugger.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:08,054 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1296_Microsoft.VisualStudio.Windows.UniversalDebugger.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:08,353 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1297_Microsoft.VisualStudio.DesktopBridge.Tools.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:08,634 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1298_Microsoft.VisualStudio.DesktopBridge.Tools.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:08,924 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1299_Microsoft.VisualCpp.CRT.Appx.ARM64.Msi.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:09,177 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1300_Microsoft.VisualStudio.Templates.CS.Winforms.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:09,363 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1301_Microsoft.VisualStudio.Templates.CS.Wpf.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:09,640 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1302_Microsoft.VisualStudio.Templates.CS.Wpf.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:09,846 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1303_Microsoft.VisualStudio.Templates.VB.Winforms.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:10,118 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1304_Microsoft.VisualStudio.Templates.VB.Wpf.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:10,301 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1305_Microsoft.VisualStudio.Templates.VB.Wpf.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:10,541 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1306_Microsoft.FSharp.VSIX.Templates.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:10,927 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1307_Microsoft.VisualStudio.Blend.Auto.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:11,113 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1308_Microsoft.VisualStudio.Blend.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:11,451 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1309_Microsoft.VisualStudio.Blend.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:11,729 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1310_Microsoft.VisualStudio.Blend.Msi.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:11,918 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1311_Microsoft.VC.14.43.17.13.Servicing.ATL.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:12,169 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1312_Microsoft.VC.14.43.17.13.ATL.Headers.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:12,347 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1313_Microsoft.VisualCpp.ATL.Headers.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:12,517 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1314_Microsoft.VC.14.43.17.13.ATL.Source.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:12,810 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1315_Microsoft.VisualCpp.ATL.Source.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:13,076 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1316_Microsoft.VC.14.43.17.13.Props.ATLMFC.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:13,294 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1317_Microsoft.VC.14.43.17.13.ATL.X64.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:13,459 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1318_Microsoft.VisualCpp.ATL.X64.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:13,710 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1319_Microsoft.VC.14.43.17.13.ATL.X86.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:13,975 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1320_Microsoft.VisualCpp.ATL.X86.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:14,145 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1321_Microsoft.VisualStudio.VC.Ide.ATL.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:14,395 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1322_Microsoft.VisualStudio.VC.Ide.ATL.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:14,630 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1323_Microsoft.VisualStudio.VC.Templates.Desktop.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:14,919 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1324_Microsoft.VisualStudio.VC.Templates.UnitTest.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:15,261 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1325_Microsoft.VisualStudio.TestTools.TP.V1.CPP.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:15,445 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1326_Microsoft.VisualStudio.TestTools.TestPlatform.V1.CPP.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:15,631 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1327_Microsoft.VisualStudio.VC.UnitTest.Desktop.Build.Core.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:15,895 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1328_Microsoft.VisualStudio.VC.Templates.UnitTest.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:16,059 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1329_Microsoft.VisualStudio.VC.CppBuildInsights.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:16,256 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1330_Microsoft.VisualStudio.VC.CppBuildInsights.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:16,573 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1331_Microsoft.VisualStudio.VC.ExternalBuildFramework.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:16,852 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1332_Microsoft.VisualStudio.VC.ExternalBuildFramework.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:17,138 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1333_Microsoft.VisualStudio.VC.CMake.Project.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:17,326 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1334_Microsoft.VisualStudio.VC.CMake.Client.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:17,553 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1335_Microsoft.VisualStudio.VC.CMake.Client.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:17,860 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1336_Microsoft.VisualStudio.VC.CMake.Project.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:18,271 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1337_Microsoft.VisualStudio.VC.CMake.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:18,616 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1338_Microsoft.VisualStudio.VC.Ide.TestAdapterForGoogleTest.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:18,957 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1339_Microsoft.VisualStudio.VC.IDE.Project.Factories.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:19,298 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1340_Microsoft.VC.14.43.17.13.ASAN.Headers.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:19,631 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1341_Microsoft.VC.14.43.17.13.ASAN.X64.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:19,989 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1342_Microsoft.VC.14.43.17.13.ASAN.X86.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:20,353 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1343_Microsoft.VC.14.43.17.13.ASAN.X86.OneCore.base.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:20,669 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1344_Microsoft.VisualCpp.ASAN.X86.OneCore.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:20,995 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1345_Microsoft.VisualCpp.ASAN.X86.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:21,331 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1346_Microsoft.VisualStudio.VC.Vcpkg.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:21,665 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1347_Microsoft.VisualStudio.DotNetNative.Core.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:22,010 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1348_Microsoft.VisualStudio.VC.Ide.Android.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:22,373 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1349_Microsoft.VisualStudio.VC.Ide.Android.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:23,135 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1350_Microsoft.VisualStudio.VC.Ide.UnrealEngineTools.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:23,651 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1351_Microsoft.VisualStudio.VC.Ide.UnrealEngineTools.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:24,301 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1352_Microsoft.VisualStudio.VC.Ide.UnrealEngineTools.CodeLens.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:24,765 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1353_Microsoft.VisualStudio.VC.Ide.UnrealEngineTools.CodeLens.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:25,378 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1354_Microsoft.VisualStudio.VC.Ide.UnrealEngineToolsInterfaces.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:25,838 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1355_Microsoft.VisualStudio.VC.Templates.Unreal.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:26,371 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1356_Microsoft.VisualStudio.VC.Ide.Unreal.Workspace.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:26,749 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1357_Microsoft.VisualStudio.VC.Ide.Unreal.Workspace.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:27,398 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1358_Microsoft.VisualStudio.Embedded.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:27,834 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1359_Microsoft.VisualStudio.Embedded.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:28,430 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1360_Microsoft.VisualStudio.VC.Ide.Linux.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:28,819 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1361_Microsoft.VisualStudio.VC.Ide.Linux.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:29,158 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1362_Microsoft.VisualStudio.VC.Ide.Linux.RemoteFileExplorer.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 19:59:29,436 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1363_Microsoft.VisualStudio.VC.Ide.Linux.RemoteFileExplorer.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory

@@ -1,0 +1,42 @@
+2025-03-24 20:30:27,110 [INFO] root - Log file created: logs\system_safety_tools_20250324_203027.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-24 20:30:27,110 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-24 20:30:27,800 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-24 20:30:27,801 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:30:27,801 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:30:27,801 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:30:27,801 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:30:28,280 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 20:30:28,280 [INFO] tools - 缺失的字符串键值: driver_check_tool_init
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-24 20:30:28,281 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-24 20:30:28,282 [INFO] config.settings_manager - 已加载语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-24 20:30:32,086 [INFO] user_interface - GUI interface initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 891, in function __init__
+2025-03-24 20:30:35,949 [INFO] user_interface - Running tool: 3
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1376, in function run_in_thread
+2025-03-24 20:30:38,211 [INFO] gpu_info - Getting GPU info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\gpu_info.py", Line 14, in function get_gpu_info
+2025-03-24 20:30:38,352 [INFO] gpu_info - Getting GPU basic info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\gpu_info.py", Line 38, in function get_gpu_info
+2025-03-24 20:30:38,790 [INFO] gpu_info - GPU info found
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\gpu_info.py", Line 54, in function get_gpu_info
+2025-03-24 20:30:59,587 [INFO] user_interface - Running tool: 5
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1376, in function run_in_thread
+2025-03-24 20:31:03,217 [ERROR] system_check_fix - Dism health check error: Command '['DISM.exe', '/Online', '/Cleanup-Image', '/ScanHealth']' returned non-zero exit status 740.
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 203, in function auto_dism_check_and_restore_health
+2025-03-24 20:31:13,329 [INFO] user_interface - Running tool: 5
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1376, in function run_in_thread
+2025-03-24 20:31:15,667 [ERROR] system_check_fix - DISM error: 
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 146, in function dism_check_and_restore_health
+2025-03-24 20:31:27,029 [INFO] user_interface - Application closing
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1459, in function on_close

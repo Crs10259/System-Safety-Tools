@@ -1,0 +1,914 @@
+2025-03-24 20:14:43,536 [INFO] root - Log file created: logs\system_safety_tools_20250324_201443.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-24 20:14:43,536 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-24 20:14:44,093 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-24 20:14:44,094 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:14:44,094 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:14:44,094 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:14:44,094 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 20:14:44,456 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 20:14:44,457 [INFO] tools - 缺失的字符串键值: driver_check_tool_init
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-24 20:14:44,468 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-24 20:14:44,480 [INFO] config.settings_manager - 已加载语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-24 20:14:49,178 [INFO] user_interface - GUI interface initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 664, in function __init__
+2025-03-24 20:15:02,152 [INFO] user_interface - Running tool: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1145, in function run_in_thread
+2025-03-24 20:15:02,152 [INFO] system_check_fix - Running system file checker (sfc /scannow)
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 18, in function sfc_scannow
+2025-03-24 20:15:02,620 [ERROR] system_check_fix - SFC failed with return code: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 43, in function sfc_scannow
+2025-03-24 20:15:02,620 [ERROR] system_check_fix - Error output: 
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 44, in function sfc_scannow
+2025-03-24 20:15:09,980 [INFO] user_interface - Running tool: 7
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1145, in function run_in_thread
+2025-03-24 20:15:27,726 [ERROR] system_check_fix - Network reset error: Command '['netsh', 'winsock', 'reset']' returned non-zero exit status 1.
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 217, in function netsh_winsock_reset
+2025-03-24 20:15:32,729 [INFO] tools - 启动 Windows DISM 工具
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 23, in function windows_dism_tools
+2025-03-24 20:16:07,353 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 48, in function delete_useless_files
+2025-03-24 20:16:07,354 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 20:16:07,354 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 51, in function delete_useless_files
+2025-03-24 20:16:09,740 [ERROR] delete_useless_file - Recycle bin clean failed: 0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 48, in function clean_recycle_bin
+2025-03-24 20:16:09,824 [WARNING] delete_useless_file - Recycle bin clean failed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 169, in function cleanup_system
+2025-03-24 20:16:09,881 [INFO] delete_useless_file - Cleaning temp files
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 174, in function cleanup_system
+2025-03-24 20:16:09,883 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\00rf3k3y.lxc [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\00rf3k3y.lxc'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,276 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\0572586d-aefb-4405-9c38-7a45a111ff07.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\0572586d-aefb-4405-9c38-7a45a111ff07.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,477 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\0ic2db2q.wbe [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\0ic2db2q.wbe'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,500 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1cikiofg.5iw [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1cikiofg.5iw'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,528 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1heoix5b.zng [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1heoix5b.zng'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,555 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1lzkbygd.vwn [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1lzkbygd.vwn'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,631 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1s1wzcrg.suv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1s1wzcrg.suv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,790 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\21lm24hh.5nx [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\21lm24hh.5nx'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,859 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\22gp0dve.l3d [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\22gp0dve.l3d'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:10,996 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\2a6f07bc-c91b-4481-acca-7380139df28c.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\2a6f07bc-c91b-4481-acca-7380139df28c.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:11,204 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\2x501tqq.2sp [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\2x501tqq.2sp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:11,289 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3b81f4ee-46e2-4acc-bc77-7d0e747e6d0d.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3b81f4ee-46e2-4acc-bc77-7d0e747e6d0d.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:11,512 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3ds4vxg3.ehu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3ds4vxg3.ehu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:11,636 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3styzqbz.1yq [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3styzqbz.1yq'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:11,863 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\4145dfd1-bd3d-431f-b0e6-4626ffbab040.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\4145dfd1-bd3d-431f-b0e6-4626ffbab040.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:12,106 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\58ae7470-ce57-4743-8903-19d9b72414d5.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\58ae7470-ce57-4743-8903-19d9b72414d5.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:12,389 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\5to2iqxb.aos [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\5to2iqxb.aos'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:12,542 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\67007f4c-dc56-43e3-87df-e1f42c7d24dc.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\67007f4c-dc56-43e3-87df-e1f42c7d24dc.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:12,780 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:12,914 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\7ca8c4e9-a68d-46f0-8ff7-8af8aa3bebbd.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\7ca8c4e9-a68d-46f0-8ff7-8af8aa3bebbd.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:13,127 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\7d428316-b5de-46f3-b071-b47ca2bdb074.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\7d428316-b5de-46f3-b071-b47ca2bdb074.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:13,449 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\9bd4a069-acb1-4ecc-bbd2-6092df26b3bc.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\9bd4a069-acb1-4ecc-bbd2-6092df26b3bc.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:13,710 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\a5nhxepf.swr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\a5nhxepf.swr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:13,912 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ac23b37d-06d5-4d2d-b90d-5cab06b98c10.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ac23b37d-06d5-4d2d-b90d-5cab06b98c10.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:14,179 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\argxspyy.jes [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\argxspyy.jes'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:14,341 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\avty0iz0.ipr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\avty0iz0.ipr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:14,581 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bttbwedk.kdq [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bttbwedk.kdq'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:14,696 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bv3wxfuz.qwj [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bv3wxfuz.qwj'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:15,022 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c052ed50-0bdf-4dab-bbf7-e0b639efa3ae.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c052ed50-0bdf-4dab-bbf7-e0b639efa3ae.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:15,351 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c121a2ce-c96a-420d-8e57-516139e28f35.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c121a2ce-c96a-420d-8e57-516139e28f35.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:15,690 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\c40336d8-da3a-4757-9a0f-683ab4848014.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\c40336d8-da3a-4757-9a0f-683ab4848014.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:16,017 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ceml1s5b.gfa [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ceml1s5b.gfa'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:16,353 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\cgsbj1qz.pap [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\cgsbj1qz.pap'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:16,672 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1364_Microsoft.VisualStudio.VC.Ide.Linux.CMake.Resources.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:16,988 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1365_Microsoft.VisualStudio.VC.Ide.Linux.CMake.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:17,396 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1366_Microsoft.VisualStudio.LiveShare.VSCore.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:17,801 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_1367_Microsoft.VisualStudio.Product.Professional.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:18,164 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324184510_errors.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:18,566 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324195405.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:18,973 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\dd_setup_20250324195405_errors.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:19,290 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\dzaawlpk.1oz [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\dzaawlpk.1oz'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:19,618 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\eaee0723-ec9b-440d-8382-8827d0861c44.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\eaee0723-ec9b-440d-8382-8827d0861c44.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:19,985 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\f2b5dcku.xrb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\f2b5dcku.xrb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:20,338 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\f5t3n3kv.w1g [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\f5t3n3kv.w1g'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:20,671 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ffd65dfe-5353-4d86-b84e-458543c02a0c.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ffd65dfe-5353-4d86-b84e-458543c02a0c.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:20,971 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\iiz4kzmn.emr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\iiz4kzmn.emr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:21,257 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\iq2sseqw.lu2 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\iq2sseqw.lu2'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:21,569 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ixg14xrx.gu3 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ixg14xrx.gu3'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:21,857 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\j0txfwu4.mme [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\j0txfwu4.mme'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:22,152 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\jfmfgr4c.dvc [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\jfmfgr4c.dvc'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:22,454 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\jnpspfp4.oyz [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\jnpspfp4.oyz'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:22,750 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\juod42qo.gba [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\juod42qo.gba'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:23,018 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\k3wehizq.wwz [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\k3wehizq.wwz'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:23,320 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\kccsdkbak [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\kccsdkbak'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:23,567 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\kwjardz4.vxy [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\kwjardz4.vxy'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:23,816 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\laaue14x.xba [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\laaue14x.xba'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:24,074 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ldhtwueh.nn2 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ldhtwueh.nn2'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:24,323 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\m05ht35k.nvg [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\m05ht35k.nvg'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:24,571 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\m4jf3ngg.json
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:24,763 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\msucqteu.52y [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\msucqteu.52y'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:25,010 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\mv0bdcbu.azu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\mv0bdcbu.azu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:25,244 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\my321bdq.s44 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\my321bdq.s44'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:25,489 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\n0se1ysc.afy [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\n0se1ysc.afy'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:25,736 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\njtegukc [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\njtegukc'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:25,978 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\NuGetScratch [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\NuGetScratch'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:26,222 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\oejlphma.q5i [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\oejlphma.q5i'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:26,458 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ooewacdk.syv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ooewacdk.syv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:26,753 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\phuzna4o.4h1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\phuzna4o.4h1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:27,002 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\q00aqcsh.efv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\q00aqcsh.efv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:27,303 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\qgjzatzv.gsa [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\qgjzatzv.gsa'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:27,603 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\qtofauqu.bsf [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\qtofauqu.bsf'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:27,973 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\r2ypw2tg.k2o [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\r2ypw2tg.k2o'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:28,507 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\s0xpzzfa.ffv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\s0xpzzfa.ffv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:28,877 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\s3ba5day.fxw [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\s3ba5day.fxw'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:29,181 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sa5wse0e.n1h [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sa5wse0e.n1h'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:29,556 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sbr0pe24.xjr [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sbr0pe24.xjr'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:29,856 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\servicehub [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\servicehub'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:30,161 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++ [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:30,382 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sxgwhxij.35c [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sxgwhxij.35c'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:30,681 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\system-commandline-sentinel-files [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\system-commandline-sentinel-files'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:31,002 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:31,305 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ThunderEv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ThunderEv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:31,569 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSLogs
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:31,939 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:32,310 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem.Out [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem.Out'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:32,690 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WAXD79B.tmp [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WAXD79B.tmp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:33,077 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WeChat Files
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:33,401 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:33,685 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinSAT [WinError 5] 拒绝访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinSAT'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:34,048 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\wwgxnp2e.o5z [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\wwgxnp2e.o5z'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:34,378 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\wzrhceyc.egu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\wzrhceyc.egu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:34,687 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\xd3rvtbx.biu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\xd3rvtbx.biu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:34,941 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\XLLiveUD [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\XLLiveUD'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:35,282 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\xszbuktm.45y [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\xszbuktm.45y'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:35,592 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\zh4r2oql.hs4 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\zh4r2oql.hs4'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:35,989 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\zlce5gvt.vlu [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\zlce5gvt.vlu'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:36,265 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\00rf3k3y.lxc\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\00rf3k3y.lxc\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:36,598 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\0ic2db2q.wbe\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\0ic2db2q.wbe\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:36,888 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1cikiofg.5iw\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1cikiofg.5iw\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:37,201 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1heoix5b.zng\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1heoix5b.zng\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:37,424 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1lzkbygd.vwn\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1lzkbygd.vwn\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:37,665 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\1s1wzcrg.suv\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\1s1wzcrg.suv\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:38,023 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\21lm24hh.5nx\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\21lm24hh.5nx\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:38,229 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\22gp0dve.l3d\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\22gp0dve.l3d\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:38,511 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\2x501tqq.2sp\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\2x501tqq.2sp\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:38,770 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3ds4vxg3.ehu\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3ds4vxg3.ehu\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:39,055 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\3styzqbz.1yq\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\3styzqbz.1yq\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:39,328 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\5to2iqxb.aos\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\5to2iqxb.aos\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:39,659 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917\en-US [WinError 5] 拒绝访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917\\en-US'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:40,002 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917\zh-CN [WinError 5] 拒绝访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\6CF246DF-AC9E-4AB8-9FF4-FA06E8D74917\\zh-CN'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:40,348 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\a5nhxepf.swr\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\a5nhxepf.swr\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:40,663 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\argxspyy.jes\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\argxspyy.jes\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:40,977 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\avty0iz0.ipr\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\avty0iz0.ipr\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:41,232 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bttbwedk.kdq\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bttbwedk.kdq\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:41,589 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\bv3wxfuz.qwj\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\bv3wxfuz.qwj\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:41,895 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ceml1s5b.gfa\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ceml1s5b.gfa\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:42,288 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\cgsbj1qz.pap\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\cgsbj1qz.pap\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:42,745 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\dzaawlpk.1oz\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\dzaawlpk.1oz\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:43,193 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\f2b5dcku.xrb\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\f2b5dcku.xrb\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:43,478 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\f5t3n3kv.w1g\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\f5t3n3kv.w1g\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:43,884 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\iiz4kzmn.emr\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\iiz4kzmn.emr\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,226 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\iq2sseqw.lu2\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\iq2sseqw.lu2\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,365 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ixg14xrx.gu3\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ixg14xrx.gu3\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,516 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\j0txfwu4.mme\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\j0txfwu4.mme\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,655 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\jfmfgr4c.dvc\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\jfmfgr4c.dvc\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,734 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\jnpspfp4.oyz\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\jnpspfp4.oyz\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:44,875 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\juod42qo.gba\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\juod42qo.gba\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,018 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\k3wehizq.wwz\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\k3wehizq.wwz\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,090 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\kccsdkbak\bak [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\kccsdkbak\\bak'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,200 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\kwjardz4.vxy\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\kwjardz4.vxy\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,297 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\laaue14x.xba\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\laaue14x.xba\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,406 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ldhtwueh.nn2\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ldhtwueh.nn2\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,505 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\m05ht35k.nvg\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\m05ht35k.nvg\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,607 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\msucqteu.52y\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\msucqteu.52y\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,695 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\mv0bdcbu.azu\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\mv0bdcbu.azu\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,788 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\my321bdq.s44\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\my321bdq.s44\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,878 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\n0se1ysc.afy\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\n0se1ysc.afy\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:45,961 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\njtegukc\Win11SDK_10.0.22621.00C0B50536C9040EC40F [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\njtegukc\\Win11SDK_10.0.22621.00C0B50536C9040EC40F'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:46,051 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\njtegukc\Win11SDK_WindowsPerformanceToolkit.6DCF4F84A9590A0FC355 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\njtegukc\\Win11SDK_WindowsPerformanceToolkit.6DCF4F84A9590A0FC355'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:46,217 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\NuGetScratch\lock
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:46,379 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\oejlphma.q5i\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\oejlphma.q5i\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:46,545 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ooewacdk.syv\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ooewacdk.syv\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:47,067 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\phuzna4o.4h1\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\phuzna4o.4h1\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:47,429 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\q00aqcsh.efv\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\q00aqcsh.efv\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:47,794 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\qgjzatzv.gsa\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\qgjzatzv.gsa\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:48,201 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\qtofauqu.bsf\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\qtofauqu.bsf\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:48,424 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\r2ypw2tg.k2o\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\r2ypw2tg.k2o\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:48,746 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\s0xpzzfa.ffv\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\s0xpzzfa.ffv\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,037 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\s3ba5day.fxw\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\s3ba5day.fxw\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,227 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sa5wse0e.n1h\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sa5wse0e.n1h\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,368 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sbr0pe24.xjr\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sbr0pe24.xjr\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,616 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\servicehub\logs [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\servicehub\\logs'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,821 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++\cache.dbf [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++\\cache.dbf'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:49,965 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++\cache.dbf-shm [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++\\cache.dbf-shm'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:50,370 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++\cache.dbf-wal [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++\\cache.dbf-wal'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:50,595 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++\Http [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++\\Http'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:50,808 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Steam++\Logs [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Steam++\\Logs'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:51,055 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\sxgwhxij.35c\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\sxgwhxij.35c\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:51,218 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\system-commandline-sentinel-files\dotnet-suggest-registration-git-credential-manager, Version=2.6.0.0, Culture=neutral, PublicKeyToken=null
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:51,533 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\thunder11_xmp_plugin [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\thunder11_xmp_plugin'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:51,658 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\Thunder7.9 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\Thunder7.9'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:52,226 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\ThunderEv [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\ThunderEv'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:52,754 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\xl11 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\xl11'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:53,000 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\xlgame [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\xlgame'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:53,435 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\XLSDK [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\XLSDK'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:53,643 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\xlx [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\xlx'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:53,912 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\Thunder Network\xl_ext_chrome [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\Thunder Network\\xl_ext_chrome'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:54,355 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\ThunderEv\SDK [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\ThunderEv\\SDK'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:54,616 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\51eeeb56ff4442f6a4efd1e6a776660135696
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:54,832 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:55,063 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem.Out\51eeeb56ff4442f6a4efd1e6a776660135696
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:55,252 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:55,384 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\wwgxnp2e.o5z\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\wwgxnp2e.o5z\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:55,603 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\wzrhceyc.egu\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\wzrhceyc.egu\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:55,794 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\xd3rvtbx.biu\resources
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:55,954 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\XLLiveUD\\Thunder8_12.1.5.2750'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:56,173 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\xszbuktm.45y\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\xszbuktm.45y\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:56,408 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\zh4r2oql.hs4\resources [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\zh4r2oql.hs4\\resources'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:56,685 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\zlce5gvt.vlu\resources
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:56,906 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\zh4r2oql.hs4\resources\app
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:57,044 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\xszbuktm.45y\resources\app [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\xszbuktm.45y\\resources\\app'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:57,204 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\xszbuktm.45y\resources\app\ServiceHub
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:57,360 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\XLLiveUD\\Thunder8_12.1.5.2750\\skin'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:16:57,569 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\alreadynew
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:57,840 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\checking
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:58,272 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\cloud
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:58,464 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\newver
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:58,932 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\updating
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:59,168 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\updfail
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:59,359 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\XLLiveUD\Thunder8_12.1.5.2750\skin\updsucc
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:59,634 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\wzrhceyc.egu\resources\app
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:16:59,814 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\wwgxnp2e.o5z\resources\app
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:00,055 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:00,346 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:00,686 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:01,091 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\AtomicJar.Testcontainers [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\AtomicJar.Testcontainers'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:01,541 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\CGSecurity.TestDisk [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\CGSecurity.TestDisk'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:02,136 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\D4koon.WhatsappTray [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\D4koon.WhatsappTray'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:02,880 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Elcomsoft.eXplorerforWhatsApp [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\Elcomsoft.eXplorerforWhatsApp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:03,868 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\FredEmmott.FredsControllerTester [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\FredEmmott.FredsControllerTester'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:04,567 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\gjergj.testmyapp [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\gjergj.testmyapp'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:05,266 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\HaraldBoegeholz.h2testw [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\HaraldBoegeholz.h2testw'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:06,067 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\NirSoft.AlternateStreamView [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\NirSoft.AlternateStreamView'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:06,783 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\NirSoft.DownTester [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\NirSoft.DownTester'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:07,491 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Ookla.Speedtest.CLI [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\Ookla.Speedtest.CLI'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:08,069 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Ookla.Speedtest.Desktop [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\Ookla.Speedtest.Desktop'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:08,999 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\PawelSalawa.SQLiteStudio [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\PawelSalawa.SQLiteStudio'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:09,610 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\peanut996.CloudflareWarpSpeedTest [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\peanut996.CloudflareWarpSpeedTest'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:10,343 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\robinovitch61.goreleaser-testing [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\robinovitch61.goreleaser-testing'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:10,951 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\SagMeinenNamen.TypingTest [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\SagMeinenNamen.TypingTest'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:12,306 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\SmartBear.ReadyAPITestEngine [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\SmartBear.ReadyAPITestEngine'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:13,102 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\testmace.testmace [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\testmace.testmace'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:13,533 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\TheTTRTeam.ToontownRewrittenTest [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\TheTTRTeam.ToontownRewrittenTest'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:14,178 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Vipre.IPVTest [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\Vipre.IPVTest'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:15,449 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\WsSolInfor.QemuBootTester [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\WsSolInfor.QemuBootTester'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:16,754 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\WsSolInfor.Testdisk [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\WsSolInfor.Testdisk'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:17,774 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\XIU2.CloudflareSpeedTest [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\WinGet\\cache\\V2_PVD\\Microsoft.Winget.Source_8wekyb3d8bbwe\\packages\\XIU2.CloudflareSpeedTest'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:19,134 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\AtomicJar.Testcontainers\c4561b80
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:20,398 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\CGSecurity.TestDisk\28533c2f
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:21,160 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\D4koon.WhatsappTray\d2356741
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:21,963 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Elcomsoft.eXplorerforWhatsApp\b03f3507
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:22,838 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\FredEmmott.FredsControllerTester\32a95317
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:23,646 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\gjergj.testmyapp\cd2ce01e
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:24,259 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\HaraldBoegeholz.h2testw\094f7df4
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:25,116 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\NirSoft.AlternateStreamView\3328d336
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:25,614 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\NirSoft.DownTester\bbbecf35
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:26,437 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Ookla.Speedtest.CLI\da5e282b
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:26,957 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Ookla.Speedtest.Desktop\ccd32100
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:27,556 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\PawelSalawa.SQLiteStudio\e52d0970
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:28,156 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\peanut996.CloudflareWarpSpeedTest\67c07bcc
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:28,956 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\robinovitch61.goreleaser-testing\9c896506
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:29,871 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\SagMeinenNamen.TypingTest\02be1970
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:30,599 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\SmartBear.ReadyAPITestEngine\95e88aef
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:30,869 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\testmace.testmace\c120f0f0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:31,067 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\TheTTRTeam.ToontownRewrittenTest\98c5f495
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:31,270 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\Vipre.IPVTest\b5b1fc91
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:31,476 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\WsSolInfor.QemuBootTester\dce30ffc
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:31,704 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\WsSolInfor.Testdisk\037ece5e
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:31,951 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\WinGet\cache\V2_PVD\Microsoft.Winget.Source_8wekyb3d8bbwe\packages\XIU2.CloudflareSpeedTest\16e7b9bf
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:17:32,223 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.framework.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.framework.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:32,427 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:32,597 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.utilities.core.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.utilities.core.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:32,751 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.codeanalysis.csharp.features.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.codeanalysis.csharp.features.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:33,503 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.codeanalysis.features.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.codeanalysis.features.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:33,786 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.internal.visualstudio.interop.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.internal.visualstudio.interop.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:33,955 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.controls.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.controls.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:34,154 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.controls.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.controls.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:34,378 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.coreservices.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.coreservices.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:34,631 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.provider.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.provider.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:34,874 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.commonide.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.commonide.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:35,113 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.componentmodelhost.implementation.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.componentmodelhost.implementation.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:35,355 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.composition.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.composition.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:35,643 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.copilot.vsix.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.copilot.vsix.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:36,143 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.coreutility.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.coreutility.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:36,737 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.diagnostics.measurement.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.diagnostics.measurement.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:37,428 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.editor.implementation.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.editor.implementation.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:37,875 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.errorlistpkg.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.errorlistpkg.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:38,422 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.extensibilityhosting.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.extensibilityhosting.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:39,090 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.graphmodel.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.graphmodel.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:39,673 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.graphproviderpackage.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.graphproviderpackage.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:40,283 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.imaging.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.imaging.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:40,763 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.intellicode.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.intellicode.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:41,139 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.interactivewindow.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.interactivewindow.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:41,662 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.interop.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.interop.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:42,101 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.licensing.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.licensing.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:42,423 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.platform.vseditor.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.platform.vseditor.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:42,887 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.platform.windowmanagement.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.platform.windowmanagement.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:43,412 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.productkeydialog.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.productkeydialog.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:43,896 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.codeschema.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.codeschema.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:44,442 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.datamanager.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.datamanager.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:45,097 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.interfaces.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.interfaces.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:45,724 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.project.visualc.vcprojectengine.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.project.visualc.vcprojectengine.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:46,374 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.implementation.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.implementation.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:47,075 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:47,553 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.query.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.query.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:48,154 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.vs.implementation.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.vs.implementation.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:48,702 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.services.integration.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.services.integration.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:49,250 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.common.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.setup.common.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:49,863 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.setup.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:50,599 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.15.0.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.15.0.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:51,216 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.connected.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.connected.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:51,802 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.framework.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.framework.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:52,524 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.graphprovider.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.treenavigation.graphprovider.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:53,224 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.hierarchyprovider.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.treenavigation.hierarchyprovider.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:53,793 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.ui.internal.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.ui.internal.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:54,501 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.viewmanager.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.viewmanager.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:55,533 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.telemetry.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.telemetry.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:56,333 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.text.ui.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.text.ui.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:57,110 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.threading.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.threading.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:57,978 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.utilities.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.utilities.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:58,585 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.vc.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.vc.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:59,146 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.workspace.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.workspace.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:17:59,631 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\mscorlib.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\mscorlib.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:00,114 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\newtonsoft.json.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\newtonsoft.json.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:00,587 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationcore.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\presentationcore.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:01,029 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationframework.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\presentationframework.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:01,454 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.collections.immutable.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.collections.immutable.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:01,863 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.componentmodel.composition.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.componentmodel.composition.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:02,396 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.composition.runtime.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.composition.runtime.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:02,944 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.core.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.core.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:03,400 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:03,801 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.text.json.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.text.json.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:04,211 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.threading.tasks.dataflow.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.threading.tasks.dataflow.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:04,671 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.transactions.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.transactions.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:05,081 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.xaml.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.xaml.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:05,535 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationprovider.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\uiautomationprovider.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:06,036 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationtypes.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\uiautomationtypes.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:06,557 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\windowsbase.ni.pdb [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\windowsbase.ni.pdb'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:07,165 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.framework.ni.pdb\5208c8c6b0d850b2e26a9c9201bfd0351 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.framework.ni.pdb\\5208c8c6b0d850b2e26a9c9201bfd0351'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:07,711 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.ni.pdb\cb8505613fc04d207027be97151bd3ee1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.ni.pdb\\cb8505613fc04d207027be97151bd3ee1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:08,217 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.build.utilities.core.ni.pdb\5e74ebe92dde9a20e2332fd7d32963201 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.build.utilities.core.ni.pdb\\5e74ebe92dde9a20e2332fd7d32963201'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:08,679 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.codeanalysis.csharp.features.ni.pdb\138cf764e86da657512c5732752158fb1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.codeanalysis.csharp.features.ni.pdb\\138cf764e86da657512c5732752158fb1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:09,398 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.codeanalysis.features.ni.pdb\8da22ce224b42c7c884c42181cab612c1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.codeanalysis.features.ni.pdb\\8da22ce224b42c7c884c42181cab612c1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:10,044 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.internal.visualstudio.interop.ni.pdb\9ac632e90fabeaff115132ce1225999f1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.internal.visualstudio.interop.ni.pdb\\9ac632e90fabeaff115132ce1225999f1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:10,638 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.controls.ni.pdb\1b718191fb65838fa18bf8766de7de311 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.controls.ni.pdb\\1b718191fb65838fa18bf8766de7de311'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:11,258 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.controls.ni.pdb\a033f15d7f90e99f32275b353ae3e9391 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.controls.ni.pdb\\a033f15d7f90e99f32275b353ae3e9391'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:11,868 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.coreservices.ni.pdb\f6b8274ef5b9df28033f3396c449ad181 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.coreservices.ni.pdb\\f6b8274ef5b9df28033f3396c449ad181'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:12,616 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.teamfoundation.git.provider.ni.pdb\b9692743d35bb1e73733887b24f8593d1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.teamfoundation.git.provider.ni.pdb\\b9692743d35bb1e73733887b24f8593d1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:13,311 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.commonide.ni.pdb\903da81a230b27671ec4d5703903f35e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.commonide.ni.pdb\\903da81a230b27671ec4d5703903f35e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:13,979 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.componentmodelhost.implementation.ni.pdb\18e6619d70217412813c7c49bbc477501 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.componentmodelhost.implementation.ni.pdb\\18e6619d70217412813c7c49bbc477501'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:14,715 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.composition.ni.pdb\c02e3385ba5c23c3e7ebfa147b9a5a961 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.composition.ni.pdb\\c02e3385ba5c23c3e7ebfa147b9a5a961'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:15,516 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.copilot.vsix.ni.pdb\02ad9ad788a0b172298e24892c9798e01 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.copilot.vsix.ni.pdb\\02ad9ad788a0b172298e24892c9798e01'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:16,262 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.coreutility.ni.pdb\989b5325abc54a09a479547b3777e9601 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.coreutility.ni.pdb\\989b5325abc54a09a479547b3777e9601'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:17,267 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.diagnostics.measurement.ni.pdb\b5c09f3fd1cc069bdf0975d66883f8201 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.diagnostics.measurement.ni.pdb\\b5c09f3fd1cc069bdf0975d66883f8201'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:18,010 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.editor.implementation.ni.pdb\061d542f28b8fe977a520590db5cdd0a1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.editor.implementation.ni.pdb\\061d542f28b8fe977a520590db5cdd0a1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:18,772 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.errorlistpkg.ni.pdb\a7a754e8762070d37eedbb10cc93647e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.errorlistpkg.ni.pdb\\a7a754e8762070d37eedbb10cc93647e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:19,905 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.extensibilityhosting.ni.pdb\26276790eda63a2ad0365f10afcd29741 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.extensibilityhosting.ni.pdb\\26276790eda63a2ad0365f10afcd29741'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:20,623 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.graphmodel.ni.pdb\cd57189245473bccfd5feba72db01b931 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.graphmodel.ni.pdb\\cd57189245473bccfd5feba72db01b931'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:21,345 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.graphproviderpackage.ni.pdb\f3033bd5184b9198fad879d302eaf4771 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.graphproviderpackage.ni.pdb\\f3033bd5184b9198fad879d302eaf4771'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:22,030 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.imaging.ni.pdb\a42ba21ac269b9e4297e24808c11da1e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.imaging.ni.pdb\\a42ba21ac269b9e4297e24808c11da1e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:22,787 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.intellicode.ni.pdb\d7a84ada8a05b438ebe4e27a66f42edf1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.intellicode.ni.pdb\\d7a84ada8a05b438ebe4e27a66f42edf1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:23,559 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.interactivewindow.ni.pdb\a94423ac80c33c2b268eea065cc18a5a1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.interactivewindow.ni.pdb\\a94423ac80c33c2b268eea065cc18a5a1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:24,409 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.interop.ni.pdb\db0d9644c775ec169a78b42a7e2ba27d1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.interop.ni.pdb\\db0d9644c775ec169a78b42a7e2ba27d1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:25,046 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.licensing.ni.pdb\0fbf6cd2c9e8f7b9d27174e385ef4ecb1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.licensing.ni.pdb\\0fbf6cd2c9e8f7b9d27174e385ef4ecb1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:25,773 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.platform.vseditor.ni.pdb\98418f0802e176649b046fb8a6150f121 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.platform.vseditor.ni.pdb\\98418f0802e176649b046fb8a6150f121'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:26,378 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.platform.windowmanagement.ni.pdb\c080e92edfa44c2c2c5501843939a90f1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.platform.windowmanagement.ni.pdb\\c080e92edfa44c2c2c5501843939a90f1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:27,025 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.productkeydialog.ni.pdb\9854f08a611ff98bbad113b7ed7adcfb1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.productkeydialog.ni.pdb\\9854f08a611ff98bbad113b7ed7adcfb1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:27,712 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.codeschema.ni.pdb\6d15786b8689a6e3d3bf7475df00a46d1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.codeschema.ni.pdb\\6d15786b8689a6e3d3bf7475df00a46d1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:28,360 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.datamanager.ni.pdb\ba902afda85f49893c2a92a14892bf1e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.datamanager.ni.pdb\\ba902afda85f49893c2a92a14892bf1e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:29,210 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.progression.interfaces.ni.pdb\55c2beef69acaa09952347883a383f221 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.progression.interfaces.ni.pdb\\55c2beef69acaa09952347883a383f221'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:30,035 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.project.visualc.vcprojectengine.ni.pdb\69e36445d01ed2dc4f78f99fcf5e618d1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.project.visualc.vcprojectengine.ni.pdb\\69e36445d01ed2dc4f78f99fcf5e618d1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:30,604 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.implementation.ni.pdb\bd3d3fb09db19c88a53879cb8690a3e71 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.implementation.ni.pdb\\bd3d3fb09db19c88a53879cb8690a3e71'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:31,249 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.ni.pdb\57a06aa2407c4712b7124ecc8ee290da1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.ni.pdb\\57a06aa2407c4712b7124ecc8ee290da1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:31,936 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.query.ni.pdb\3a4a26ba3f07db4d715c28f42ad210421 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.query.ni.pdb\\3a4a26ba3f07db4d715c28f42ad210421'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:32,523 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.projectsystem.vs.implementation.ni.pdb\9389601972d35baefbeaa7b73869b0731 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.projectsystem.vs.implementation.ni.pdb\\9389601972d35baefbeaa7b73869b0731'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:33,181 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.services.integration.ni.pdb\1b46c2aa3bd4b16f2bf6d4e05aceae1c1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.services.integration.ni.pdb\\1b46c2aa3bd4b16f2bf6d4e05aceae1c1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:33,797 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.common.ni.pdb\8493f9959e2cea96cc6c7723c63fcf6c1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.setup.common.ni.pdb\\8493f9959e2cea96cc6c7723c63fcf6c1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:34,448 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.ni.pdb\252e5874a2042307e1d165f9c0f9e8b81 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.setup.ni.pdb\\252e5874a2042307e1d165f9c0f9e8b81'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:35,277 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.15.0.ni.pdb\b36243063afc04eec82c81c7208b71a61 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.15.0.ni.pdb\\b36243063afc04eec82c81c7208b71a61'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:35,844 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.connected.ni.pdb\ceb0f42cd45b73f88e3bd94ca8897f931 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.connected.ni.pdb\\ceb0f42cd45b73f88e3bd94ca8897f931'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:36,432 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.framework.ni.pdb\222c1870f7910ba495b204fac76c63651 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.framework.ni.pdb\\222c1870f7910ba495b204fac76c63651'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:37,252 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.graphprovider.ni.pdb\a381de2046651fb2b8e0e844651ae89d1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.treenavigation.graphprovider.ni.pdb\\a381de2046651fb2b8e0e844651ae89d1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:38,084 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.hierarchyprovider.ni.pdb\ca91e4bd160321db01c34ae732ffa2be1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.treenavigation.hierarchyprovider.ni.pdb\\ca91e4bd160321db01c34ae732ffa2be1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:38,808 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.ui.internal.ni.pdb\81b36c8e32a171b54ccfa3f0690ff08e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.ui.internal.ni.pdb\\81b36c8e32a171b54ccfa3f0690ff08e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:39,557 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.viewmanager.ni.pdb\db5bed4b1263427367b7ae2d17b2e1901 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.shell.viewmanager.ni.pdb\\db5bed4b1263427367b7ae2d17b2e1901'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:40,256 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.telemetry.ni.pdb\4510ce76718396e81e09cd9f261009361 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.telemetry.ni.pdb\\4510ce76718396e81e09cd9f261009361'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:41,234 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.text.ui.ni.pdb\bb6c143a122b3dd4ffe21c3eda96d2011 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.text.ui.ni.pdb\\bb6c143a122b3dd4ffe21c3eda96d2011'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:41,850 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.threading.ni.pdb\b8a877b18264c168f4facc86fd1fd3251 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.threading.ni.pdb\\b8a877b18264c168f4facc86fd1fd3251'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:42,606 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.utilities.ni.pdb\ae1bc93b6c6ca0cc257adc6d46439f4b1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.utilities.ni.pdb\\ae1bc93b6c6ca0cc257adc6d46439f4b1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:43,233 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.vc.ni.pdb\3e383008f9b256f07cc8665fcc15d12e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.vc.ni.pdb\\3e383008f9b256f07cc8665fcc15d12e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:43,959 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.workspace.ni.pdb\26db8199a117d65d39f8a00132b719a51 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\microsoft.visualstudio.workspace.ni.pdb\\26db8199a117d65d39f8a00132b719a51'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:44,513 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\mscorlib.ni.pdb\02615d09f5932f870508f7020261bb0e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\mscorlib.ni.pdb\\02615d09f5932f870508f7020261bb0e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:44,999 [WARNING] tools - Invalid choice: b' '
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:45,003 [WARNING] tools - Invalid choice: b'&'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:45,003 [WARNING] tools - Invalid choice: b'"'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 40, in function windows_dism_tools
+2025-03-24 20:18:45,187 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\newtonsoft.json.ni.pdb\6b2f06a2959eb1a4fdd25bdcae798f661 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\newtonsoft.json.ni.pdb\\6b2f06a2959eb1a4fdd25bdcae798f661'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:45,849 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationcore.ni.pdb\6680d1684cde196b7eeac8ca462577cb1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\presentationcore.ni.pdb\\6680d1684cde196b7eeac8ca462577cb1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:46,390 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationframework.ni.pdb\f1458f7ae90f42bb12da63f1d9fe4bb51 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\presentationframework.ni.pdb\\f1458f7ae90f42bb12da63f1d9fe4bb51'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:46,420 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.collections.immutable.ni.pdb\efe28a66f43ca30277cf95f813714e251 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.collections.immutable.ni.pdb\\efe28a66f43ca30277cf95f813714e251'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:46,438 [WARNING] tools - Invalid choice: b'D'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:46,439 [WARNING] tools - Invalid choice: b':'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:47,138 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.componentmodel.composition.ni.pdb\0ecf0b3fc8210e0a18ee9881c02ebadd1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.componentmodel.composition.ni.pdb\\0ecf0b3fc8210e0a18ee9881c02ebadd1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,167 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.composition.runtime.ni.pdb\bfeb51fee7096ee324cc8a13565496651 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.composition.runtime.ni.pdb\\bfeb51fee7096ee324cc8a13565496651'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,308 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.core.ni.pdb\c47e1aa6f1d9fbbb04e6455d1994c1a51 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.core.ni.pdb\\c47e1aa6f1d9fbbb04e6455d1994c1a51'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,353 [WARNING] tools - Invalid choice: b'/'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:47,360 [WARNING] tools - Invalid choice: b'P'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:47,361 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.ni.pdb\760cb5c95e85b3ca290b5f9e74e193681 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.ni.pdb\\760cb5c95e85b3ca290b5f9e74e193681'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,400 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.text.json.ni.pdb\0cac279400792f7dc83abfe6febf02e51 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.text.json.ni.pdb\\0cac279400792f7dc83abfe6febf02e51'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,450 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.threading.tasks.dataflow.ni.pdb\b4dc75df0997820152f72e81408b166b1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.threading.tasks.dataflow.ni.pdb\\b4dc75df0997820152f72e81408b166b1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,548 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.transactions.ni.pdb\b53daffd2bc3262cc07d630778600d7f1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.transactions.ni.pdb\\b53daffd2bc3262cc07d630778600d7f1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,576 [WARNING] tools - Invalid choice: b'r'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:47,679 [WARNING] tools - Invalid choice: b'o'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:47,716 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.xaml.ni.pdb\bdaa9e54cda2f4766400a130bd99550e1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\system.xaml.ni.pdb\\bdaa9e54cda2f4766400a130bd99550e1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:47,860 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationprovider.ni.pdb\6333ca32a0e572ec76a5d5b10d324c5b1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\uiautomationprovider.ni.pdb\\6333ca32a0e572ec76a5d5b10d324c5b1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:48,054 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationtypes.ni.pdb\8f68a4bc0175f35f43b529beb134cd5b1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\uiautomationtypes.ni.pdb\\8f68a4bc0175f35f43b529beb134cd5b1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:48,138 [WARNING] tools - Invalid choice: b'g'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:48,224 [ERROR] delete_useless_file - Remove failed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\windowsbase.ni.pdb\0f9029b42091e7bfdf652a5cc15bca3f1 [WinError 145] 目录不是空的。: 'C:\\Users\\96152\\AppData\\Local\\Temp\\VSTelem\\NgenPdb\\windowsbase.ni.pdb\\0f9029b42091e7bfdf652a5cc15bca3f1'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 130, in function clean_temp_directory
+2025-03-24 20:18:48,304 [WARNING] tools - Invalid choice: b'r'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:48,422 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\windowsbase.ni.pdb\0f9029b42091e7bfdf652a5cc15bca3f1\WindowsBase.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:48,546 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationtypes.ni.pdb\8f68a4bc0175f35f43b529beb134cd5b1\UIAutomationTypes.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:48,803 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\uiautomationprovider.ni.pdb\6333ca32a0e572ec76a5d5b10d324c5b1\UIAutomationProvider.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:48,981 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.xaml.ni.pdb\bdaa9e54cda2f4766400a130bd99550e1\System.Xaml.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:48,990 [WARNING] tools - Invalid choice: b'a'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:49,010 [WARNING] tools - Invalid choice: b'm'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:49,063 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.transactions.ni.pdb\b53daffd2bc3262cc07d630778600d7f1\System.Transactions.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,235 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.threading.tasks.dataflow.ni.pdb\b4dc75df0997820152f72e81408b166b1\System.Threading.Tasks.Dataflow.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,454 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.text.json.ni.pdb\0cac279400792f7dc83abfe6febf02e51\System.Text.Json.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,799 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.ni.pdb\760cb5c95e85b3ca290b5f9e74e193681\System.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,831 [WARNING] tools - Invalid choice: b' '
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:49,863 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.core.ni.pdb\c47e1aa6f1d9fbbb04e6455d1994c1a51\System.Core.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,931 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.composition.runtime.ni.pdb\bfeb51fee7096ee324cc8a13565496651\System.Composition.Runtime.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,996 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.componentmodel.composition.ni.pdb\0ecf0b3fc8210e0a18ee9881c02ebadd1\System.ComponentModel.Composition.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:49,999 [WARNING] tools - Invalid choice: b'F'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:50,175 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\system.collections.immutable.ni.pdb\efe28a66f43ca30277cf95f813714e251\System.Collections.Immutable.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,317 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationframework.ni.pdb\f1458f7ae90f42bb12da63f1d9fe4bb51\PresentationFramework.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,386 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\presentationcore.ni.pdb\6680d1684cde196b7eeac8ca462577cb1\PresentationCore.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,442 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\newtonsoft.json.ni.pdb\6b2f06a2959eb1a4fdd25bdcae798f661\Newtonsoft.Json.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,543 [WARNING] tools - Invalid choice: b'i'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:50,544 [WARNING] tools - Invalid choice: b'l'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:50,613 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\mscorlib.ni.pdb\02615d09f5932f870508f7020261bb0e1\mscorlib.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,772 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.workspace.ni.pdb\26db8199a117d65d39f8a00132b719a51\Microsoft.VisualStudio.Workspace.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,819 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.vc.ni.pdb\3e383008f9b256f07cc8665fcc15d12e1\Microsoft.VisualStudio.VC.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,870 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.utilities.ni.pdb\ae1bc93b6c6ca0cc257adc6d46439f4b1\Microsoft.VisualStudio.Utilities.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:50,891 [WARNING] tools - Invalid choice: b'e'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:50,921 [WARNING] tools - Invalid choice: b's'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:50,948 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.threading.ni.pdb\b8a877b18264c168f4facc86fd1fd3251\Microsoft.VisualStudio.Threading.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:51,000 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.text.ui.ni.pdb\bb6c143a122b3dd4ffe21c3eda96d2011\Microsoft.VisualStudio.Text.UI.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:51,132 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.telemetry.ni.pdb\4510ce76718396e81e09cd9f261009361\Microsoft.VisualStudio.Telemetry.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:51,386 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.viewmanager.ni.pdb\db5bed4b1263427367b7ae2d17b2e1901\Microsoft.VisualStudio.Shell.ViewManager.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:51,401 [WARNING] tools - Invalid choice: b'/'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:51,640 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.ui.internal.ni.pdb\81b36c8e32a171b54ccfa3f0690ff08e1\Microsoft.VisualStudio.Shell.UI.Internal.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:51,651 [WARNING] tools - Invalid choice: b'P'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:51,917 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.hierarchyprovider.ni.pdb\ca91e4bd160321db01c34ae732ffa2be1\Microsoft.VisualStudio.Shell.TreeNavigation.HierarchyProvider.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:52,197 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.treenavigation.graphprovider.ni.pdb\a381de2046651fb2b8e0e844651ae89d1\Microsoft.VisualStudio.Shell.TreeNavigation.GraphProvider.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:52,821 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.framework.ni.pdb\222c1870f7910ba495b204fac76c63651\Microsoft.VisualStudio.Shell.Framework.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:53,196 [WARNING] tools - Invalid choice: b'y'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:53,636 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.connected.ni.pdb\ceb0f42cd45b73f88e3bd94ca8897f931\Microsoft.VisualStudio.Shell.Connected.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:53,945 [WARNING] tools - Invalid choice: b't'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main
+2025-03-24 20:18:54,041 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.shell.15.0.ni.pdb\b36243063afc04eec82c81c7208b71a61\Microsoft.VisualStudio.Shell.15.0.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:54,510 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.ni.pdb\252e5874a2042307e1d165f9c0f9e8b81\Microsoft.VisualStudio.Setup.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:55,035 [INFO] delete_useless_file - Removed: C:\Users\96152\AppData\Local\Temp\VSTelem\NgenPdb\microsoft.visualstudio.setup.common.ni.pdb\8493f9959e2cea96cc6c7723c63fcf6c1\Microsoft.VisualStudio.Setup.Common.ni.pdb
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 127, in function clean_temp_directory
+2025-03-24 20:18:55,308 [WARNING] tools - Invalid choice: b'h'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 200, in function main

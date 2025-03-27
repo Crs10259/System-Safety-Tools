@@ -1,0 +1,90 @@
+2025-03-27 20:14:39,149 [INFO] root - Log file created: logs\system_safety_tools_20250327_201439.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-27 20:14:39,151 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-27 20:14:39,390 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-27 20:14:39,392 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 20:14:39,393 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 20:14:39,394 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 20:14:39,396 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 20:14:39,688 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-27 20:14:39,690 [INFO] tools - 驱动器检查工具初始化
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-27 20:14:39,692 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-27 20:14:39,694 [INFO] languages.language_config - Language set to: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\languages\language_config.py", Line 199, in function set_language
+2025-03-27 20:14:39,695 [INFO] config.settings_manager - 已加载语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-27 20:14:39,929 [INFO] user_interface - Initializing SystemSafetyToolsGUI
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 709, in function __init__
+2025-03-27 20:14:39,932 [INFO] user_interface - Theme configuration file not found, using default
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3259, in function _load_theme_config
+2025-03-27 20:14:39,934 [INFO] user_interface - Setting up window
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 776, in function setup_window
+2025-03-27 20:14:39,936 [INFO] user_interface - Window configured with size 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 809, in function setup_window
+2025-03-27 20:14:39,940 [INFO] user_interface - Styles set up successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1110, in function setup_styles
+2025-03-27 20:14:39,995 [INFO] user_interface - Loaded programmatically generated icons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 768, in function load_images
+2025-03-27 20:14:39,996 [INFO] user_interface - Creating widgets
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1117, in function create_widgets
+2025-03-27 20:14:40,011 [INFO] user_interface - Creating output area
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1367, in function create_output_area
+2025-03-27 20:14:40,247 [INFO] user_interface - Output area created
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1412, in function create_output_area
+2025-03-27 20:14:40,248 [INFO] user_interface - Creating header
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1174, in function create_header
+2025-03-27 20:14:41,181 [INFO] user_interface - Header created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1251, in function create_header
+2025-03-27 20:14:41,182 [INFO] user_interface - Creating function buttons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1259, in function create_function_buttons
+2025-03-27 20:14:41,441 [INFO] user_interface - Created 9 function buttons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1335, in function create_function_buttons
+2025-03-27 20:14:41,445 [INFO] user_interface - Status bar created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1167, in function create_status_bar
+2025-03-27 20:14:41,445 [INFO] user_interface - Widgets created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1147, in function create_widgets
+2025-03-27 20:14:41,446 [INFO] user_interface - Setting up output redirection
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1419, in function setup_output_redirect
+2025-03-27 20:14:41,446 [INFO] user_interface - Output redirection set up successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1439, in function setup_output_redirect
+2025-03-27 20:14:41,447 [INFO] user_interface - Enhancing visual effects
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3337, in function enhance_visual_effects
+2025-03-27 20:14:41,448 [INFO] user_interface - Button hover effects added
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3491, in function _add_button_hover_effects
+2025-03-27 20:14:41,450 [INFO] user_interface - Visual effects enhanced
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3358, in function enhance_visual_effects
+2025-03-27 20:14:41,451 [INFO] user_interface - Applying frame transition animations
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1746, in function animate_frame_transition
+2025-03-27 20:14:41,453 [INFO] user_interface - SystemSafetyToolsGUI initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 754, in function __init__
+2025-03-27 20:14:41,694 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 835, in function _on_window_resize
+2025-03-27 20:14:41,696 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,697 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button2" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,698 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button3" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,699 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button4" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,720 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button5" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,754 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button6" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,812 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button7" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,880 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button8" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:41,920 [ERROR] user_interface - Button animation error: window ".!frame.!frame4.!button9" isn't packed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1791, in function apply_button_animation
+2025-03-27 20:14:46,478 [INFO] user_interface - Application closing
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1630, in function on_close

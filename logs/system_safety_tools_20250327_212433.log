@@ -1,0 +1,78 @@
+2025-03-27 21:24:33,311 [INFO] root - Log file created: logs\system_safety_tools_20250327_212433.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-27 21:24:33,312 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-27 21:24:33,531 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-27 21:24:33,540 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 21:24:33,540 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 21:24:33,541 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 21:24:33,541 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 21:24:33,788 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-27 21:24:33,792 [INFO] tools - 驱动器检查工具初始化
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-27 21:24:33,800 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 13, in function main
+2025-03-27 21:24:33,802 [INFO] languages.language_config - Language set to: en
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\languages\language_config.py", Line 199, in function set_language
+2025-03-27 21:24:33,803 [INFO] config.settings_manager - 已加载语言设置: en
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-27 21:24:33,976 [INFO] user_interface - Initializing SystemSafetyToolsGUI
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 704, in function __init__
+2025-03-27 21:24:33,977 [INFO] user_interface - Theme configuration file not found, using default
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3612, in function _load_theme_config
+2025-03-27 21:24:33,978 [INFO] user_interface - Setting up window
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 771, in function setup_window
+2025-03-27 21:24:33,979 [INFO] user_interface - Window configured with size 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 804, in function setup_window
+2025-03-27 21:24:33,982 [INFO] user_interface - Styles set up successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1127, in function setup_styles
+2025-03-27 21:24:34,021 [INFO] user_interface - Loaded programmatically generated icons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 763, in function load_images
+2025-03-27 21:24:34,021 [INFO] user_interface - Creating widgets
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1134, in function create_widgets
+2025-03-27 21:24:34,027 [INFO] user_interface - Creating header
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1199, in function create_header
+2025-03-27 21:24:34,885 [INFO] user_interface - Header created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1276, in function create_header
+2025-03-27 21:24:34,890 [INFO] user_interface - Creating function buttons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1283, in function create_function_buttons
+2025-03-27 21:24:34,922 [INFO] user_interface - Created 9 function buttons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1352, in function create_function_buttons
+2025-03-27 21:24:34,922 [INFO] user_interface - Creating output area
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1383, in function create_output_area
+2025-03-27 21:24:34,964 [INFO] user_interface - Output area created
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1425, in function create_output_area
+2025-03-27 21:24:34,968 [INFO] user_interface - Status bar created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1192, in function create_status_bar
+2025-03-27 21:24:34,968 [INFO] user_interface - Widgets created successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1172, in function create_widgets
+2025-03-27 21:24:34,969 [INFO] user_interface - Setting up output redirection
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1432, in function setup_output_redirect
+2025-03-27 21:24:34,970 [INFO] user_interface - Output redirection set up successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1452, in function setup_output_redirect
+2025-03-27 21:24:34,970 [INFO] user_interface - Enhancing visual effects
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3690, in function enhance_visual_effects
+2025-03-27 21:24:34,972 [INFO] user_interface - Button hover effects added
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3844, in function _add_button_hover_effects
+2025-03-27 21:24:34,973 [INFO] user_interface - Visual effects enhanced
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3711, in function enhance_visual_effects
+2025-03-27 21:24:34,974 [INFO] user_interface - Applying frame transition animations
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1766, in function animate_frame_transition
+2025-03-27 21:24:34,975 [INFO] user_interface - SystemSafetyToolsGUI initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 749, in function __init__
+2025-03-27 21:24:35,075 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 849, in function _on_window_resize
+2025-03-27 21:24:38,993 [INFO] languages.language_config - Language set to: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\languages\language_config.py", Line 199, in function set_language
+2025-03-27 21:24:38,993 [INFO] user_interface - 语言已切换为中文
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1846, in function change_language
+2025-03-27 21:24:38,995 [INFO] config.settings_manager - 已保存语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 85, in function save_settings
+2025-03-27 21:24:39,280 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 849, in function _on_window_resize

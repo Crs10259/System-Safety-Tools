@@ -1,0 +1,42 @@
+2025-03-24 18:21:35,933 [INFO] root - Log file created: logs\system_safety_tools_20250324_182135.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-24 18:21:35,933 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-24 18:21:40,443 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-24 18:21:40,634 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 18:21:40,635 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 18:21:40,636 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 18:21:40,636 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-24 18:21:42,350 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 18:21:42,350 [INFO] tools - 驱动器检查工具初始化
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-24 18:21:42,351 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-24 18:21:42,352 [INFO] config.settings_manager - 已加载语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-24 18:21:46,782 [INFO] ui_interface - GUI interface initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\ui_interface.py", Line 207, in function __init__
+2025-03-24 18:21:57,817 [INFO] ui_interface - Running tool: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\ui_interface.py", Line 368, in function run_tool
+2025-03-24 18:22:00,563 [INFO] system_check_fix - Running system file checker (sfc /scannow)
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 18, in function sfc_scannow
+2025-03-24 18:22:00,754 [ERROR] system_check_fix - SFC failed with return code: 1
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 43, in function sfc_scannow
+2025-03-24 18:22:00,754 [ERROR] system_check_fix - Error output: 
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system_check_fix.py", Line 44, in function sfc_scannow
+2025-03-24 18:22:00,855 [INFO] ui_interface - Tool 1 completed
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\ui_interface.py", Line 424, in function _execute_tool
+2025-03-24 18:22:07,073 [INFO] ui_interface - Running tool: 2
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\ui_interface.py", Line 368, in function run_tool
+2025-03-24 18:22:08,898 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 48, in function delete_useless_files
+2025-03-24 18:22:08,899 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-24 18:22:08,899 [INFO] tools - Cleaning system
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 51, in function delete_useless_files

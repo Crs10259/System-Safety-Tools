@@ -1,0 +1,189 @@
+2025-03-27 19:54:51,315 [INFO] root - Log file created: logs\system_safety_tools_20250327_195451.log
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-27 19:54:51,316 [INFO] root - system_tools_started
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-27 19:54:51,648 [INFO] root - system_info
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-27 19:54:51,656 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 19:54:51,657 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 19:54:51,658 [INFO] root -   machine_type: AMD64
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 19:54:51,658 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-27 19:54:51,901 [INFO] delete_useless_file - Init cleanup module: ['C:', 'D:', 'E:']
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\delete_useless_file.py", Line 21, in function __init__
+2025-03-27 19:54:51,902 [INFO] tools - 驱动器检查工具初始化
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\tools.py", Line 143, in function __init__
+2025-03-27 19:54:51,903 [INFO] __main__ - Starting SystemSafetyTools
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\system-safety-tools.py", Line 14, in function main
+2025-03-27 19:54:51,905 [INFO] languages.language_config - Language set to: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\languages\language_config.py", Line 199, in function set_language
+2025-03-27 19:54:51,905 [INFO] config.settings_manager - 已加载语言设置: zh
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\config\settings_manager.py", Line 67, in function load_settings
+2025-03-27 19:54:52,029 [INFO] user_interface - Initializing SystemSafetyToolsGUI
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 709, in function __init__
+2025-03-27 19:54:52,033 [INFO] user_interface - Theme configuration file not found, using default
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 2923, in function _load_theme_config
+2025-03-27 19:54:52,034 [INFO] user_interface - Setting up window
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 773, in function setup_window
+2025-03-27 19:54:52,035 [INFO] user_interface - Window configured with size 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 806, in function setup_window
+2025-03-27 19:54:52,036 [INFO] user_interface - Setting up styles
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 836, in function setup_styles
+2025-03-27 19:54:52,039 [INFO] user_interface - Styles set up successfully
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1095, in function setup_styles
+2025-03-27 19:54:52,070 [INFO] user_interface - Loaded programmatically generated icons
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 765, in function load_images
+2025-03-27 19:54:52,071 [INFO] user_interface - Creating widgets
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1102, in function create_widgets
+2025-03-27 19:54:52,077 [ERROR] user_interface - Error creating widgets: 'SystemSafetyToolsGUI' object has no attribute 'create_header'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1124, in function create_widgets
+Traceback (most recent call last):
+  File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", line 1113, in create_widgets
+    self.create_header()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'SystemSafetyToolsGUI' object has no attribute 'create_header'
+2025-03-27 19:54:52,111 [WARNING] user_interface - Output text area not created, skipping output redirection
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 742, in function __init__
+2025-03-27 19:54:52,112 [INFO] user_interface - Enhancing visual effects
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3001, in function enhance_visual_effects
+2025-03-27 19:54:52,114 [ERROR] user_interface - Error adding shadow effects: invalid color name "#00000022"
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3052, in function _add_shadow_effects
+2025-03-27 19:54:52,115 [ERROR] user_interface - Error adding smooth scrolling: 'NoneType' object has no attribute 'bind'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3089, in function _add_smooth_scrolling
+2025-03-27 19:54:52,117 [ERROR] user_interface - Error applying modern fonts: 'NoneType' object has no attribute 'configure'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3251, in function _apply_modern_fonts
+2025-03-27 19:54:52,118 [INFO] user_interface - Visual effects enhanced
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 3022, in function enhance_visual_effects
+2025-03-27 19:54:52,118 [INFO] user_interface - Applying frame transition animations
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1520, in function animate_frame_transition
+2025-03-27 19:54:52,119 [INFO] user_interface - SystemSafetyToolsGUI initialized
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 750, in function __init__
+2025-03-27 19:54:52,209 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,316 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,322 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,332 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,343 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,351 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,358 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,364 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,374 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,381 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,389 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,397 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,406 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,414 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,424 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,430 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,438 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,443 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,451 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,459 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,468 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,475 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,484 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,514 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,522 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,530 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,542 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,552 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,562 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,572 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,581 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,591 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,601 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,610 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,619 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,627 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,635 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,643 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,652 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,659 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,667 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,674 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,681 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,688 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,697 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,703 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,709 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,716 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,724 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,731 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,738 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,746 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,753 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,761 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,768 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,774 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,781 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,787 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,802 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:02,817 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:03,041 [DEBUG] user_interface - Window resized to 1075x604
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:03,052 [DEBUG] user_interface - Window resized to 1536x801
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 832, in function _on_window_resize
+2025-03-27 19:55:04,864 [ERROR] user_interface - Error during close: 'SystemSafetyToolsGUI' object has no attribute 'old_stdout'
+File "d:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\user_interface.py", Line 1422, in function on_close

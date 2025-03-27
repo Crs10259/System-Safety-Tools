@@ -1,0 +1,6 @@
+.bak
+.dmp
+.log
+.old
+.temp
+.tmp
