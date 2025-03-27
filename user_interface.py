@@ -6,18 +6,16 @@ import sys
 import time
 from pathlib import Path
 import platform
-from PIL import Image, ImageTk  # 需要添加到依赖中
+from PIL import Image, ImageTk  
 import subprocess
 import json
 
-# 导入项目模块
-from languages.language_config import LanguageManager, Language
+from languages import LanguageManager, Language
 from log_utils import LogManager
 from tools import *
-from config.config import ApplyTools, ApplyConfig
-from config.settings_manager import SettingsManager
+from config import AppTools, AppConfig
+from config import SettingsManager
 
-# 导入io_prompts模块并设置GUI模式
 import io_prompts as op
 op.set_gui_mode(True)  # 设置为GUI模式
 
@@ -1217,10 +1215,10 @@ class SystemSafetyToolsGUI:
             self.title_label = title_label
             
             # 版本信息
-            from config.config import ApplyConfig
+            from config.config import AppConfig
             version_label = ttk.Label(
                 title_frame,
-                text=f"v{ApplyConfig.VERSION}",
+                text=f"v{AppConfig.VERSION}",
                 style='Status.TLabel'
             )
             version_label.pack(side=tk.TOP, anchor=tk.W, padx=5)
@@ -1529,9 +1527,7 @@ class SystemSafetyToolsGUI:
             # 在单独的线程中运行工具
             def run_in_thread():
                 try:
-                    # 使用配置中的工具映射
-                    from config.config import ApplyTools
-                    ApplyTools.get(tool_idx, self)
+                    AppTools.get(tool_idx, self)
                     
                 except Exception as e:
                     self.logger.error(f"Error running tool {tool_idx}: {str(e)}")
@@ -1628,31 +1624,6 @@ class SystemSafetyToolsGUI:
         
         help_text.insert(tk.END, "\n\n".join(help_content))
         help_text.config(state=tk.DISABLED)  # 设为只读
-
-    def on_close(self):
-        """关闭窗口时的清理操作"""
-        try:
-            # 恢复标准输入输出
-            if hasattr(self, 'old_stdout'):
-                sys.stdout = self.old_stdout
-            if hasattr(self, 'old_stderr'):
-                sys.stderr = self.old_stderr
-            
-            # 记录应用关闭
-            self.logger.info("Application closing")
-            
-            # 销毁窗口
-            if hasattr(self, 'root') and self.root:
-                self.root.destroy()
-            
-        except Exception as e:
-            # 确保在出现异常时仍能关闭窗口
-            self.logger.error(f"Error during close: {str(e)}")
-            if hasattr(self, 'root') and self.root:
-                self.root.destroy()
-        finally:
-            # 确保程序完全退出
-            sys.exit(0)
 
     def toggle_theme(self):
         """切换明亮/黑暗主题"""
@@ -1778,7 +1749,6 @@ class SystemSafetyToolsGUI:
                 for i, button in enumerate(self.buttons):
                     if button:
                         delay = initial_delay + (i * 50)  # 按顺序延迟显示
-                        # 使用lambda捕获当前按钮
                         self.root.after(delay, lambda btn=button: self.apply_button_animation(btn))
             
             # 应用输出区域动画
@@ -1808,8 +1778,8 @@ class SystemSafetyToolsGUI:
             
             # 然后回到原位
             self.root.after(100, lambda: button.grid_configure(pady=original_pady))
+
         except Exception as e:
-            # 按钮动画错误不应该影响程序运行
             self.logger.error(f"Button animation error: {str(e)}")
 
     def show_language_menu(self):
@@ -2445,7 +2415,7 @@ class SystemSafetyToolsGUI:
                 progress.start(10)
                 
                 # 执行工具
-                ApplyTools.get(tool_idx)
+                ApplTools.get(tool_idx)
                 
                 # 停止进度条
                 progress.stop()

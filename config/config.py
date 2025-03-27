@@ -7,15 +7,15 @@ from languages.language_config import LanguageManager, Language
 from log_utils import LogManager
 from config.settings_manager import SettingsManager
 
-class ApplyConfig:
+class AppConfig:
     @property
     def TITLE(self):
         return LanguageManager.get_string("title")
         
-    VERSION = '1.0.1'
+    VERSION = '2.0.0'
     DEBUG_MODE = False
 
-class ApplyTools:
+class AppTools:
     tools = [
         SystemCheckFix.sfc_scannow,
         delete_useless_files,
@@ -40,46 +40,3 @@ class ApplyTools:
         else:
             return tool_func()
 
-def show_settings():
-    """显示和管理设置选项"""
-    logger = LogManager().get_logger(__name__)
-    settings_manager = SettingsManager()
-    
-    while True:
-        os.system('cls')
-        current_lang = LanguageManager.get_current_language()
-        
-        print(f"======== {LanguageManager.get_string('settings_title')} ========\n")
-        print(f"{LanguageManager.get_string('current_language')}: {current_lang.value}\n")
-        print(f"1. {LanguageManager.get_string('set_chinese')}")
-        print(f"2. {LanguageManager.get_string('set_english')}")
-        print(f"ESC. {LanguageManager.get_string('return_text')}")
-        
-        choice = msvcrt.getch()
-        
-        if choice == b'\x1b': 
-            break
-            
-        if choice.decode() == '1':
-            if current_lang != Language.CHINESE:
-                LanguageManager.set_language(Language.CHINESE)
-                settings_manager.save_settings()
-                logger.info("Language changed to Chinese")
-                print(f"\n{LanguageManager.get_string('language_changed_zh')}")
-                time.sleep(1.5)
-                break
-            else:
-                print(f"\n{LanguageManager.get_string('already_chinese')}")
-                time.sleep(1.5)
-                
-        elif choice.decode() == '2':
-            if current_lang != Language.ENGLISH:
-                LanguageManager.set_language(Language.ENGLISH)
-                settings_manager.save_settings()
-                logger.info("Language changed to English")
-                print(f"\n{LanguageManager.get_string('language_changed_en')}")
-                time.sleep(1.5)
-                break
-            else:
-                print(f"\n{LanguageManager.get_string('already_english')}")
-                time.sleep(1.5)

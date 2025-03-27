@@ -513,7 +513,6 @@ def init_language_strings():
         "exclude_files_folders": "Excluded Files and Folders",
         "exclude_description": "These files or folders will not be processed by cleanup functions",
         
-        # More strings can be added as needed
         "press_esc_to_stop": "Press ESC to stop monitoring",
         "confirm_check_all_drives": "Confirm checking all drives? This may take a while.",
         "drive_check_cancelled": "Drive check cancelled",
@@ -533,11 +532,9 @@ def init_language_strings():
         "theme_settings": "Theme Settings"
     }
     
-    # Update the language string containers
     LanguageStrings.CHINESE.update(chinese_strings)
     LanguageStrings.ENGLISH.update(english_strings)
     
-    # Ensure the STRINGS dictionary is updated
     LanguageStrings.STRINGS = {
         "zh": LanguageStrings.CHINESE,
         "en": LanguageStrings.ENGLISH
@@ -545,10 +542,8 @@ def init_language_strings():
 
     logger.info("Built-in language strings initialized")
     
-    # Try to load additional strings from configuration file
     lang_file = Path("config/language_strings.json")
     if lang_file.exists():
         LanguageStrings.load_from_file(str(lang_file))
 
-# Initialize language strings when this module is imported
 init_language_strings() 

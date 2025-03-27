@@ -1,0 +1,14 @@
+2025-03-28 06:54:48,612 [INFO] root - Log file created: logs\system_safety_tools_20250328_065448.log
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 50, in function _setup_logging
+2025-03-28 06:54:48,612 [INFO] root - system_tools_started
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 51, in function _setup_logging
+2025-03-28 06:54:48,904 [INFO] root - system_info
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 70, in function _log_system_info
+2025-03-28 06:54:48,952 [INFO] root -   python_version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-28 06:54:48,952 [INFO] root -   platform_info: Windows-10-10.0.19045-SP0
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-28 06:54:48,953 [INFO] root -   machine_type: AMD64
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info
+2025-03-28 06:54:48,953 [INFO] root -   processor: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
+File "D:\Users\ChenRunsen\My-Project\Application_Project\System-Safety-Tools\log_utils.py", Line 72, in function _log_system_info

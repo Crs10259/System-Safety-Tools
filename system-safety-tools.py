@@ -9,11 +9,11 @@ def main():
     """主函数"""
     try:
         logger = LogManager().get_logger(__name__)
-        logger.info("Starting SystemSafetyTools")
+        logger.info("Starting System Safety Tools")
         
         SettingsManager()
         run_gui()
-        
+
     except Exception as e:
         if 'logger' in locals():
             logger.error("Unhandled exception:", exc_info=True)
