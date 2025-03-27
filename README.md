@@ -58,24 +58,6 @@ You can also combine them | 您也可以同时添加：
 ## 3.4 Running the Program 运行程序
 Double-click the generated SystemSafetyTools.exe file to run the program. | 双击生成的SystemSafetyTools.exe文件即可运行程序。
 
-## Project Structure 项目结构
-```
-📦 SystemSafetyTools
-┣ 📂 config
-┃ ┣ 📜 config.py
-┃ ┗ 📜 settings_manager.py
-┣ 📂 languages
-┃ ┗ 📜 language_config.py
-┣ 📂 logs
-┃ ┗ 📜 system_safety_tools_[timestamp].log
-┣ 📜 system-safety-tools.py
-┣ 📜 tools.py
-┣ 📜 delete_useless_file.py
-┣ 📜 log_utils.py
-┣ 📜 requirements.txt
-┗ 📜 README.md
-```
-
 # 6. Notes 注意事项
 Before using any system repair or deletion functions, please ensure important data is backed up.
  | 在使用任何系统修复或删除功能之前，请确保已备份重要数据。

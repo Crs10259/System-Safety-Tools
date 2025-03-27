@@ -13,13 +13,10 @@ class ApplyConfig:
         return LanguageManager.get_string("title")
         
     VERSION = '1.0.1'
-
-    MAX_RETRIES = 3
-    TIMEOUT = 30
     DEBUG_MODE = False
 
 class ApplyTools:
-    tools: List[Callable] = [
+    tools = [
         SystemCheckFix.sfc_scannow,
         delete_useless_files,
         gpu_basic_info,
@@ -31,33 +28,17 @@ class ApplyTools:
         virus_scan
     ]
     
-    # 添加GUI模式工具映射
-    gui_tools = {
-        3: lambda app: app.show_gpu_info(),  # GPU信息的GUI版本
-        5: lambda app: app.show_dism_tools()  # DISM工具的GUI版本
-    }
-    
     @staticmethod
     def get(choice: int, app=None) -> None:
-        """执行选定的工具并进行适当的错误处理"""
+        """执行选定的工具"""
         if not 1 <= choice <= len(ApplyTools.tools):
             raise ValueError(f"无效的工具选择: {choice}")
-        
-        # 如果在GUI模式下且有特定的GUI版本工具
-        if app is not None and choice in ApplyTools.gui_tools:
-            return ApplyTools.gui_tools[choice](app)
-        
-        # 检查是否在GUI模式下运行
-        if hasattr(op, 'IN_GUI_MODE') and op.IN_GUI_MODE:
-            # 在GUI模式下直接调用原始函数
-            tool_func = ApplyTools.tools[choice-1]
-            if hasattr(tool_func, "__wrapped__"):
-                return tool_func.__wrapped__()
-            else:
-                return tool_func()
+            
+        tool_func = ApplyTools.tools[choice-1]
+        if hasattr(tool_func, "__wrapped__"):
+            return tool_func.__wrapped__()
         else:
-            # 在命令行模式下使用装饰器
-            return op.output(ApplyTools.tools[choice-1])()
+            return tool_func()
 
 def show_settings():
     """显示和管理设置选项"""

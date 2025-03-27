@@ -1,3 +1,5 @@
+"""GUI 模式的 IO 处理模块"""
+import tkinter as tk
 import os
 import msvcrt
 from typing import Callable, Any

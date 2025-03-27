@@ -18,27 +18,12 @@ lang = LanguageManager()
 # 获取日志记录器实例
 logger = LogManager().get_logger(__name__)
 
-def windows_dism_tools():
+def windows_dism_tools(gui_mode=True):
     """Windows DISM 工具函数"""
     logger.info("启动 Windows DISM 工具")
     
     try:
-        print(LanguageManager.get_string("dism_auto_option"))
-        print(LanguageManager.get_string("dism_manual_option"))
-        choice = msvcrt.getch()
-
-        if choice.decode() == "1":
-            logger.info("DISM auto option")
-            SystemCheckFix.auto_dism_check_and_restore_health()
-        elif choice.decode() == "2":
-            logger.info("DISM manual option")
-            SystemCheckFix.dism_check_and_restore_health()
-        elif choice == b'\x1b':
-            logger.info("Exit DISM tools")
-            return
-        else:
-            logger.warning(f"Invalid choice: {choice}")
-            print(LanguageManager.get_string("invalid_choice"))
+        SystemCheckFix.auto_dism_check_and_restore_health()
     except Exception as e:
         logger.error(f"Operation failed: {str(e)}", exc_info=True)
         print(f"{LanguageManager.get_string('error_occurred')}{str(e)}")

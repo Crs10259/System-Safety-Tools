@@ -753,18 +753,16 @@ class SystemSafetyToolsGUI:
             messagebox.showerror("初始化错误", f"应用程序初始化失败：{str(e)}")
 
     def load_images(self):
-        """Load images using the programmatic image generator"""
+        """加载图片使用程序化图像生成器"""
         try:
-            # Import our image generator
             from image import ImageGenerator
             
-            # Get all icons at once
             self.images = ImageGenerator.get_image_dict()
             self.logger.info("Loaded programmatically generated icons")
             
         except Exception as e:
             self.logger.error(f"Error loading images: {e}")
-            self.images = {}  # Empty dictionary if images can't be loaded
+            self.images = {}  
 
     def setup_window(self):
         """设置窗口基本属性"""
@@ -775,8 +773,8 @@ class SystemSafetyToolsGUI:
         screen_height = self.root.winfo_screenheight()
         
         # 窗口大小和位置
-        window_width = int(screen_width * 0.7)  # 使用屏幕宽度的70%
-        window_height = int(screen_height * 0.7)  # 使用屏幕高度的70%
+        window_width = int(screen_width * 0.7)  
+        window_height = int(screen_height * 0.7)  
         
         # 计算窗口位置使其居中
         position_x = (screen_width - window_width) // 2
@@ -805,7 +803,6 @@ class SystemSafetyToolsGUI:
 
     def _on_window_resize(self, event):
         """当窗口大小改变时调整UI元素"""
-        # 只处理来自根窗口的大小变化事件
         if event.widget == self.root:
             try:
                 # 记录窗口新尺寸
@@ -2003,8 +2000,8 @@ class SystemSafetyToolsGUI:
     
     def on_close(self):
         """关闭对话框"""
-        if hasattr(self, 'dialog') and self.dialog:
-            self.dialog.destroy()
+        if hasattr(self, 'root') and self.root:
+            self.root.destroy()
 
     def show_settings(self):
         """显示设置面板"""
@@ -2667,7 +2664,7 @@ class SystemSafetyToolsGUI:
             )
             card_button.grid(row=4, column=2, padx=5, pady=15)
             
-            # 添加预览框 - 圆角设计
+            # 预览框 - 圆角设计
             card_preview = tk.Canvas(
                 config_frame,
                 width=30,
@@ -2823,7 +2820,6 @@ class SystemSafetyToolsGUI:
             card_var.trace_add("write", update_preview)
             text_var.trace_add("write", update_preview)
             
-            # Windows 11 风格的底部按钮区域 - 透明背景与右对齐按钮
             button_frame = ttk.Frame(main_frame, style='Win11Footer.TFrame')
             button_frame.pack(fill=tk.X, pady=20, padx=20)
             
@@ -3123,10 +3119,9 @@ class SystemSafetyToolsGUI:
             )
             full_desc.pack(anchor=tk.W, padx=40, pady=5)
             
-            # 自定义扫描选项
             custom_scan = ttk.Radiobutton(
                 options_frame,
-                text=LanguageManager.get_string("custom_scan_option")[3:],  # 移除 "3. " 前缀
+                text=LanguageManager.get_string("custom_scan_option")[3:],  
                 variable=option_var,
                 value=3
             )
@@ -3161,10 +3156,9 @@ class SystemSafetyToolsGUI:
             )
             browse_button.pack(side=tk.LEFT, padx=5)
             
-            # 更新病毒定义选项
             update_def = ttk.Radiobutton(
                 options_frame,
-                text=LanguageManager.get_string("update_defs_option")[3:],  # 移除 "4. " 前缀
+                text=LanguageManager.get_string("update_defs_option")[3:],  
                 variable=option_var,
                 value=4
             )
@@ -3212,7 +3206,7 @@ class SystemSafetyToolsGUI:
     def _handle_virus_scan_option(self, option, custom_path, parent_window):
         """处理病毒扫描选项选择"""
         try:
-            parent_window.destroy()  # 关闭选项对话框
+            parent_window.destroy()  
             
             if option == 1:  # 快速扫描
                 self._execute_virus_scan("quick")
@@ -3241,12 +3235,7 @@ class SystemSafetyToolsGUI:
     def _execute_virus_scan(self, scan_type):
         """执行病毒扫描"""
         try:
-            # 这里应该添加病毒扫描的实际实现代码
             self.logger.info(f"Starting {scan_type} virus scan")
-            # 你可以使用AV.AntivirusScan.run_quick_scan()或AV.AntivirusScan.run_full_scan()
-            # 具体取决于scan_type的值
-            # 例如：AV.AntivirusScan.run_quick_scan()或AV.AntivirusScan.run_full_scan()
-            # 这里需要根据实际情况进行实现
             self.logger.info(f"{scan_type} virus scan completed")
         except Exception as e:
             self.logger.error(f"Error executing virus scan: {str(e)}")
@@ -3259,10 +3248,7 @@ class SystemSafetyToolsGUI:
     def _execute_custom_virus_scan(self, custom_path):
         """执行自定义病毒扫描"""
         try:
-            # 这里应该添加自定义病毒扫描的实际实现代码
             self.logger.info(f"Starting custom virus scan at path: {custom_path}")
-            # 你可以使用自定义的扫描工具或脚本
-            # 这里需要根据实际情况进行实现
             self.logger.info("Custom virus scan completed")
         except Exception as e:
             self.logger.error(f"Error executing custom virus scan: {str(e)}")
@@ -3275,10 +3261,7 @@ class SystemSafetyToolsGUI:
     def _update_virus_definitions(self):
         """更新病毒定义"""
         try:
-            # 这里应该添加更新病毒定义的实际实现代码
             self.logger.info("Updating virus definitions")
-            # 你可以使用AV.AntivirusScan.update_definitions()
-            # 这里需要根据实际情况进行实现
             self.logger.info("Virus definitions updated")
         except Exception as e:
             self.logger.error(f"Error updating virus definitions: {str(e)}")
@@ -3932,15 +3915,7 @@ class SystemSafetyToolsGUI:
 
     def _get_system_font(self):
         """获取系统默认字体"""
-        system = platform.system()
-        
-        # 根据操作系统选择默认字体
-        if system == "Windows":
-            return "Segoe UI"
-        elif system == "Darwin":  # macOS
-            return "SF Pro"
-        else:  # Linux and others
-            return "Noto Sans"
+        return "Segoe UI"
 
 class OptionDialog:
     """选项对话框，用于显示选项列表供用户选择"""
@@ -4068,7 +4043,6 @@ def check_one_drive_gui(parent):
             parent=parent
         )
 
-
 def is_admin():
     """检查程序是否以管理员身份运行"""
     try:
@@ -4080,24 +4054,15 @@ def is_admin():
 def run_gui():
     """启动GUI界面"""
     try:
-        # 创建主窗口
         root = tk.Tk()
-        
-        # 创建应用实例
         app = SystemSafetyToolsGUI(root)
-    
-        # 设置关闭窗口的处理函数
         root.protocol("WM_DELETE_WINDOW", app.on_close)
-        
-        # 启动主循环
         root.mainloop()
         
     except Exception as e:
-        # 捕获未处理的异常
         logger = LogManager().get_logger("gui")
         logger.error(f"Unhandled exception in GUI: {str(e)}", exc_info=True)
         
-        # 显示错误消息
         try:
             messagebox.showerror("错误", f"发生了意外错误:\n{str(e)}")
         except:
